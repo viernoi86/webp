@@ -25,37 +25,19 @@ Aucun fichier n'est envoyé sur un serveur : les images sont converties directem
 
 ## 🌐 Utiliser le convertisseur
 
-Aucune installation n'est nécessaire.
-
 👉 **[Ouvrir WebP Converter](https://viernoi86.github.io/webp/)**
 
 1. Ouvrez le site.
-2. Déposez vos fichiers `.webp` dans la zone prévue.
+2. Déposez vos fichiers `.webp`.
 3. Choisissez **PNG** ou **JPG**.
 4. Pour le JPG, choisissez la qualité souhaitée.
-5. Téléchargez vos images individuellement ou toutes en même temps.
+5. Téléchargez vos images.
 
-## 🚀 Installation locale
+## 📸 Aperçu
 
-Clonez le repository :
-
-```bash
-git clone https://github.com/viernoi86/webp.git
-```
-
-Puis ouvrez simplement :
-
-```text
-index.html
-```
-
-dans votre navigateur.
-
-Aucune installation de dépendance n'est nécessaire.
+[![WebP Converter](./screenshot.png)](https://viernoi86.github.io/webp/)
 
 ## 🛠️ Technologies
-
-Le projet utilise uniquement des technologies web natives :
 
 * **HTML5**
 * **CSS3**
@@ -64,53 +46,43 @@ Le projet utilise uniquement des technologies web natives :
 
 Aucune bibliothèque ou framework externe n'est nécessaire.
 
+## 🚀 Installation locale
+
+```bash
+git clone https://github.com/viernoi86/webp.git
+```
+
+Puis ouvrez `index.html` dans votre navigateur.
+
+Aucune installation de dépendance n'est nécessaire.
+
 ## 📁 Structure
 
 ```text
 webp/
-│
 ├── index.html
+├── screenshot.png
 └── README.md
 ```
-
-Le projet fonctionne avec un seul fichier HTML contenant le HTML, le CSS et le JavaScript.
 
 ## 🔒 Confidentialité
 
 Les images ne quittent pas votre appareil.
 
-La conversion est effectuée localement avec la **Canvas API** du navigateur.
-
-Aucun backend, aucune base de données et aucun service externe ne sont utilisés.
+La conversion est effectuée localement avec la **Canvas API** du navigateur. Aucun backend ou service externe n'est utilisé.
 
 ## 📱 Compatibilité
 
-Le convertisseur fonctionne avec les navigateurs modernes prenant en charge la Canvas API :
+Fonctionne avec les navigateurs modernes :
 
 * Chrome
 * Edge
 * Firefox
 * Safari
 
-## 📸 Aperçu
-
-Ajoutez une capture d'écran du projet dans le repository :
-
-```md
-![WebP Converter](./screenshot.png)
-```
-
-## 💡 Pourquoi ce projet ?
-
-WebP Converter a été créé pour proposer un outil de conversion **rapide, léger, gratuit et sans inscription**.
-
-Il permet de convertir facilement des images WebP en PNG ou JPG directement depuis son navigateur.
-
 ## 📄 Licence
 
 Ce projet est disponible sous licence **MIT**.
-
-Vous êtes libre de l'utiliser, le modifier et le redistribuer.
 
 ---
 
